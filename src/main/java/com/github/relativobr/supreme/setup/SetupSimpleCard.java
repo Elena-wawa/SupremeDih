@@ -19,6 +19,8 @@ public class SetupSimpleCard {
     // setup cards
     TechGenerator.preSetup(plugin, SimpleCard.CARD_STONE, Material.STONE, Material.COBBLESTONE);
 
+    TechGenerator.preSetup(plugin, SimpleCard.CARD_STONE_BRICK_STAIRS, Material.STONE_BRICK_STAIRS, Material.STONE_BRICK_STAIRS);
+
     TechGenerator.preSetup(plugin, SimpleCard.CARD_GRANITE, Material.POLISHED_GRANITE, Material.GRANITE);
 
     TechGenerator.preSetup(plugin, SimpleCard.CARD_DIORITE, Material.POLISHED_DIORITE, Material.DIORITE);
