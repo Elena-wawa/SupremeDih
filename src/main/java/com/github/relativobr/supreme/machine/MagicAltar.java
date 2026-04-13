@@ -24,7 +24,7 @@ import org.springframework.scheduling.annotation.Async;
 public class MagicAltar extends GenericMachine {
 
   public static final SlimefunItemStack MAGIC_ALTAR_MACHINE = new SupremeItemStack("SUPREME_MAGIC_ALTAR_I",
-      Material.SMOKER, "&bMagic Altar", "", "&fCraft Rune and Magical Items", "",
+      Material.SMOKER, "&bMagic Altar", "", "&fBasic Crafting for Runes and Magical Items", "",
       LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE), LoreBuilder.speed(1),
       UtilEnergy.energyPowerPerSecond(20), "", "&3Supreme Machine");
   public static final ItemStack[] RECIPE_MAGIC_ALTAR_MACHINE = new ItemStack[]{SlimefunItems.ANCIENT_PEDESTAL,
@@ -33,7 +33,7 @@ public class MagicAltar extends GenericMachine {
       SupremeComponents.INDUCTOR_MACHINE, SlimefunItems.ANCIENT_PEDESTAL};
 
   public static final SlimefunItemStack MAGIC_ALTAR_MACHINE_II = new SupremeItemStack("SUPREME_MAGIC_ALTAR_II",
-      Material.SMOKER, "&bMagic Altar II", "", "&fAdvanced Craft Rune and Magical Items", "",
+      Material.SMOKER, "&bMagic Altar II", "", "&fAdvanced Crafting for Runes and Magical Items", "",
       LoreBuilder.machine(MachineTier.END_GAME, MachineType.MACHINE), LoreBuilder.speed(5),
       UtilEnergy.energyPowerPerSecond(100), "", "&3Supreme Machine");
   public static final ItemStack[] RECIPE_MAGIC_ALTAR_MACHINE_II = new ItemStack[]{SupremeComponents.THORNERITE,
@@ -42,7 +42,7 @@ public class MagicAltar extends GenericMachine {
       SupremeCetrus.CETRUS_IGNIS, SupremeComponents.THORNERITE};
 
   public static final SlimefunItemStack MAGIC_ALTAR_MACHINE_III = new SupremeItemStack("SUPREME_MAGIC_ALTAR_III",
-      Material.SMOKER, "&bMagic Altar III", "", "&fAdvanced Craft Rune and Magical Items", "",
+      Material.SMOKER, "&bMagic Altar III", "", "&fAdvanced Crafting for Rune and Magical Items", "",
       LoreBuilder.machine(MachineTier.END_GAME, MachineType.MACHINE), LoreBuilder.speed(15),
       UtilEnergy.energyPowerPerSecond(300), "", "&3Supreme Machine");
   public static final ItemStack[] RECIPE_MAGIC_ALTAR_MACHINE_III = new ItemStack[]{SupremeComponents.THORNERITE,
