@@ -23,6 +23,11 @@ public class SimpleCard {
       LoreBuilder.machine(MachineTier.BASIC, MachineType.MACHINE), "", "&3Supreme Component");
 
 
+  public static final SlimefunItemStack CARD_STONE_BRICK_STAIRS = new SupremeItemStack("SUPREME_CARD_STONE_BRICK_STAIRS",
+      Material.MUSIC_DISC_STRAD, "&bCard Machine Stone Brick Stairs", "", "&fChange to Produce Stone Brick Stairs", "",
+      LoreBuilder.machine(MachineTier.BASIC, MachineType.MACHINE), "", "&3Supreme Component");
+
+
   public static final SlimefunItemStack CARD_GRANITE = new SupremeItemStack("SUPREME_CARD_GRANITE",
       Material.MUSIC_DISC_STRAD, "&bCard Machine Granite", "", "&fChange to Production Granite", "",
       LoreBuilder.machine(MachineTier.BASIC, MachineType.MACHINE), "", "&3Supreme Component");
