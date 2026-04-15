@@ -30,7 +30,7 @@ public class ElectricCrafter extends GenericMachine {
       SlimefunItems.ENHANCED_AUTO_CRAFTER, SupremeComponents.ADAMANTIUM_PLATE};
 
   public static final SlimefunItemStack ELECTRIC_CRAFTER_MACHINE_II = new SupremeItemStack(
-      "SUPREME_ELECTRIC_CRAFTER_II", Material.CRAFTING_TABLE, "&bElectric Crafter II", "", "&fAdvanced Craft Items", "",
+      "SUPREME_ELECTRIC_CRAFTER_II", Material.CRAFTING_TABLE, "&bElectric Crafter II", "", "&fA More Advanced Way To Craft Items", "",
       LoreBuilder.machine(MachineTier.END_GAME, MachineType.MACHINE), LoreBuilder.speed(5),
       UtilEnergy.energyPowerPerSecond(100), "", "&3Supreme Machine");
   public static final ItemStack[] RECIPE_ELECTRIC_CRAFTER_MACHINE_II = new ItemStack[]{
@@ -39,7 +39,7 @@ public class ElectricCrafter extends GenericMachine {
       SupremeComponents.CRYSTALLIZER_MACHINE, SupremeCetrus.CETRUS_IGNIS, SupremeComponents.CRYSTALLIZER_MACHINE};
 
   public static final SlimefunItemStack ELECTRIC_CRAFTER_MACHINE_III = new SupremeItemStack(
-      "SUPREME_ELECTRIC_CRAFTER_III", Material.CRAFTING_TABLE, "&bElectric Crafter III", "", "&fAdvanced Craft Items",
+      "SUPREME_ELECTRIC_CRAFTER_III", Material.CRAFTING_TABLE, "&bElectric Crafter III", "", "&fA More Advanced Way To Craft Items",
       "", LoreBuilder.machine(MachineTier.END_GAME, MachineType.MACHINE), LoreBuilder.speed(15),
       UtilEnergy.energyPowerPerSecond(300), "", "&3Supreme Machine");
   public static final ItemStack[] RECIPE_ELECTRIC_CRAFTER_MACHINE_III = new ItemStack[]{SupremeComponents.THORNERITE,
