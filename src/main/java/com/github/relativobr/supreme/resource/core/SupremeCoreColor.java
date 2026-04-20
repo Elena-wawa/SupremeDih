@@ -46,7 +46,7 @@ public class SupremeCoreColor {
       Material.GREEN_DYE, Material.LIME_DYE);
 
   public static final SlimefunItemStack RESOURCE_CORE_PINK = new SupremeItemStack("SUPREME_CORE_PINK",
-      "2b5ad8ead60ca895c0d706cf3ad381be0540f28c5294d2b6e145675c963325cf", "&aSupreme pink", "", "&7A super pink", "",
+      "2b5ad8ead60ca895c0d706cf3ad381be0540f28c5294d2b6e145675c963325cf", "&aSupreme Pink", "", "&7A super pink", "",
       "&3Supreme Core Components");
   public static final CustomCoreRecipe RECIPE_RESOURCE_CORE_PINK = new CustomCoreRecipe(RESOURCE_CORE_PINK,
       Material.PINK_DYE, Material.MAGENTA_DYE);
