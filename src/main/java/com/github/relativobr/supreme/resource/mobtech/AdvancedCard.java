@@ -32,7 +32,7 @@ public class AdvancedCard {
       LoreBuilder.machine(MachineTier.MEDIUM, MachineType.MACHINE), "", "&3Supreme Component");
 
   public static final SlimefunItemStack CARD_SULFATE = new SupremeItemStack("SUPREME_CARD_SULFATE",
-      Material.MUSIC_DISC_BLOCKS, "&bCard de Sulfate", "", "&fChange to Produce Sulfate", "",
+      Material.MUSIC_DISC_BLOCKS, "&bCard Machine Sulfate", "", "&fChange to Produce Sulfate", "",
       LoreBuilder.machine(MachineTier.MEDIUM, MachineType.MACHINE), "", "&3Supreme Component");
 
   public static final SlimefunItemStack CARD_CARBON = new SupremeItemStack("SUPREME_CARD_CARBON",
