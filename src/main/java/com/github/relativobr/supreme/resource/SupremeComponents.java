@@ -22,7 +22,7 @@ public class SupremeComponents {
   public static final ItemStack[] RECIPE_SUPREME_NUGGET = {null, null, null, null, null, null, null, null, null};
 
   public static final SlimefunItemStack SUPREME = new SupremeItemStack("SUPREME_SUPREME",
-      "c69e3e6e5b2b92f0beb368b738b993d7ba225bf9bb2758bfc9fc2daba4a5a7d", "&aSupreme", "", "&7The Supreme", "",
+      "c69e3e6e5b2b92f0beb368b738b993d7ba225bf9bb2758bfc9fc2daba4a5a7d", "&aSupreme", "", "&7The Most Supreme Resource", "",
       "&3Supreme End-Game Components");
   public static final ItemStack[] RECIPE_SUPREME = {SupremeComponents.SUPREME_NUGGET, SupremeComponents.SUPREME_NUGGET,
       SupremeComponents.SUPREME_NUGGET, SupremeComponents.SUPREME_NUGGET, SupremeComponents.SUPREME_NUGGET,
@@ -30,25 +30,25 @@ public class SupremeComponents {
       SupremeComponents.SUPREME_NUGGET};
 
   public static final SlimefunItemStack THORNIUM_BIT = new SupremeItemStack("SUPREME_THORNIUM_BIT",
-      Material.IRON_NUGGET, "&aThornium Bit", "", "&7From the Quarry Thornium", "", "&3Supreme End-Game Components");
+      Material.IRON_NUGGET, "&aThornium Bit", "", "&7Yielded from the Thornium Quarry", "", "&3Supreme End-Game Components");
   public static final ItemStack[] RECIPE_THORNIUM_BIT = {null, null, null, null, null, null, null, null, null};
 
   public static final SlimefunItemStack THORNIUM_DUST = new SupremeItemStack("SUPREME_THORNIUM_DUST",
-      Material.GUNPOWDER, "&aThornium Dust", "", "&7From the Thornium Bit", "", "&3Supreme End-Game Components");
+      Material.GUNPOWDER, "&aThornium Dust", "", "&7Made of Thornium Bits", "", "&3Supreme End-Game Components");
   public static final ItemStack[] RECIPE_THORNIUM_DUST = {SupremeComponents.THORNIUM_BIT,
       SupremeComponents.THORNIUM_BIT, SupremeComponents.THORNIUM_BIT, SupremeComponents.THORNIUM_BIT,
       SupremeComponents.THORNIUM_BIT, SupremeComponents.THORNIUM_BIT, SupremeComponents.THORNIUM_BIT,
       SupremeComponents.THORNIUM_BIT, SupremeComponents.THORNIUM_BIT};
 
   public static final SlimefunItemStack THORNIUM_INGOT = new SupremeItemStack("SUPREME_THORNIUM_INGOT",
-      Material.IRON_INGOT, "&aThornium Ingot", "", "&7From the Thornium Dust", "", "&3Supreme End-Game Components");
+      Material.IRON_INGOT, "&aThornium Ingot", "", "&7Made of Thornium Dust", "", "&3Supreme End-Game Components");
   public static final ItemStack[] RECIPE_THORNIUM_INGOT = {SupremeComponents.THORNIUM_DUST,
       SupremeComponents.THORNIUM_DUST, SupremeComponents.THORNIUM_DUST, SupremeComponents.THORNIUM_DUST,
       SupremeComponents.THORNIUM_DUST, SupremeComponents.THORNIUM_DUST, SupremeComponents.THORNIUM_DUST,
       SupremeComponents.THORNIUM_DUST, SupremeComponents.THORNIUM_DUST};
 
   public static final SlimefunItemStack THORNIUM_BIT_SYNTHETIC = new SupremeItemStack("SUPREME_THORNIUM_BIT_SYNTHETIC",
-      Material.GOLD_NUGGET, "&aThornium Bit Synthetic", "", "&7From the Thornium Bit", "",
+      Material.GOLD_NUGGET, "&aSynthetic Thornium Bit", "", "&7A synthetic form of the Thornium Bit", "",
       "&3Supreme End-Game Components");
   public static final ItemStack[] RECIPE_THORNIUM_BIT_SYNTHETIC = {SlimefunItems.SYNTHETIC_SAPPHIRE,
       SlimefunItems.DAMASCUS_STEEL_INGOT, SlimefunItems.SYNTHETIC_SAPPHIRE, SlimefunItems.DAMASCUS_STEEL_INGOT,
@@ -56,30 +56,30 @@ public class SupremeComponents {
       SlimefunItems.DAMASCUS_STEEL_INGOT, SlimefunItems.SYNTHETIC_SAPPHIRE};
 
   public static final SlimefunItemStack THORNIUM_DUST_SYNTHETIC = new SupremeItemStack(
-      "SUPREME_THORNIUM_DUST_SYNTHETIC", Material.GLOWSTONE_DUST, "&aThornium Dust Synthetic", "",
-      "&7From the Thornium Dust", "", "&3Supreme End-Game Components");
+      "SUPREME_THORNIUM_DUST_SYNTHETIC", Material.GLOWSTONE_DUST, "&aSynthetic Thornium Dust", "",
+      "&7A synthetic form of Thornium Dust", "", "&3Supreme End-Game Components");
   public static final ItemStack[] RECIPE_THORNIUM_DUST_SYNTHETIC = {SlimefunItems.SYNTHETIC_EMERALD,
       SlimefunItems.HARDENED_METAL_INGOT, SlimefunItems.SYNTHETIC_EMERALD, SlimefunItems.HARDENED_METAL_INGOT,
       SupremeComponents.THORNIUM_DUST, SlimefunItems.HARDENED_METAL_INGOT, SlimefunItems.SYNTHETIC_EMERALD,
       SlimefunItems.HARDENED_METAL_INGOT, SlimefunItems.SYNTHETIC_EMERALD};
 
   public static final SlimefunItemStack THORNIUM_INGOT_SYNTHETIC = new SupremeItemStack(
-      "SUPREME_THORNIUM_INGOT_SYNTHETIC", Material.GOLD_INGOT, "&aThornium Ingot Synthetic", "",
-      "&7From the Thornium Ingot", "", "&3Supreme End-Game Components");
+      "SUPREME_THORNIUM_INGOT_SYNTHETIC", Material.GOLD_INGOT, "&aSynthetic Thornium Ingot", "",
+      "&7A synthetic form of the Thornium Ingot", "", "&3Supreme End-Game Components");
   public static final ItemStack[] RECIPE_THORNIUM_INGOT_SYNTHETIC = {SlimefunItems.SYNTHETIC_DIAMOND,
       SlimefunItems.STEEL_PLATE, SlimefunItems.SYNTHETIC_DIAMOND, SlimefunItems.STEEL_PLATE,
       SupremeComponents.THORNIUM_INGOT, SlimefunItems.STEEL_PLATE, SlimefunItems.SYNTHETIC_DIAMOND,
       SlimefunItems.STEEL_PLATE, SlimefunItems.SYNTHETIC_DIAMOND};
 
   public static final SlimefunItemStack THORNIUM_CARBONADO = new SupremeItemStack("SUPREME_THORNIUM_CARBONADO",
-      Material.NETHERITE_INGOT, "&aThornium Carbonado", "", "&7From the Thornium Ingot", "",
+      Material.NETHERITE_INGOT, "&aCarbonado Thornium", "", "&7An alloy of Thornium and Carbonado", "",
       "&3Supreme End-Game Components");
   public static final ItemStack[] RECIPE_THORNIUM_CARBONADO = {SlimefunItems.CARBONADO, SlimefunItems.REINFORCED_PLATE,
       SlimefunItems.CARBONADO, SlimefunItems.REINFORCED_PLATE, SupremeComponents.THORNIUM_INGOT,
       SlimefunItems.REINFORCED_PLATE, SlimefunItems.CARBONADO, SlimefunItems.REINFORCED_PLATE, SlimefunItems.CARBONADO};
 
   public static final SlimefunItemStack THORNIUM_ENERGIZED = new SupremeItemStack("SUPREME_THORNIUM_ENERGIZED",
-      Material.NETHERITE_INGOT, "&aThornium Energized", "", "&7From the Thornium Ingot", "",
+      Material.NETHERITE_INGOT, "&aEnergized Thornium", "", "&7An energized form of the Thornium Ingot", "",
       "&3Supreme End-Game Components");
   public static final ItemStack[] RECIPE_THORNIUM_ENERGIZED = {SlimefunItems.BLISTERING_INGOT_3,
       SlimefunItems.REDSTONE_ALLOY, SlimefunItems.BLISTERING_INGOT_3, SlimefunItems.REDSTONE_ALLOY,
@@ -87,7 +87,7 @@ public class SupremeComponents {
       SlimefunItems.REDSTONE_ALLOY, SlimefunItems.BLISTERING_INGOT_3};
 
   public static final SlimefunItemStack ALLOY_ZIRCONIUM = new SupremeItemStack("SUPREME_ALLOY_ZIRCONIUM",
-      Material.IRON_INGOT, "&aAlloy Zirconium", "", "&3Supreme Components");
+      Material.IRON_INGOT, "&aZirconium Alloy", "", "&3Supreme Components");
   public static final ItemStack[] RECIPE_ALLOY_ZIRCONIUM = {SlimefunItems.ZINC_DUST, SlimefunItems.SOLDER_INGOT,
       SlimefunItems.ZINC_INGOT, null, null, null, null, null, null};
 
@@ -99,7 +99,7 @@ public class SupremeComponents {
       SupremeComponents.ALLOY_ZIRCONIUM, SupremeComponents.ALLOY_ZIRCONIUM};
 
   public static final SlimefunItemStack ALLOY_TITANIUM = new SupremeItemStack("SUPREME_ALLOY_TITANIUM",
-      Material.IRON_INGOT, "&aAlloy Titanium", "", "&3Supreme Components");
+      Material.IRON_INGOT, "&aTitanium Alloy", "", "&3Supreme Components");
   public static final ItemStack[] RECIPE_ALLOY_TITANIUM = {SlimefunItems.TIN_DUST, SlimefunItems.DAMASCUS_STEEL_INGOT,
       SlimefunItems.TIN_INGOT, null, null, null, null, null, null};
 
@@ -111,7 +111,7 @@ public class SupremeComponents {
       SupremeComponents.ALLOY_TITANIUM, SupremeComponents.ALLOY_TITANIUM, SupremeComponents.ALLOY_TITANIUM};
 
   public static final SlimefunItemStack ALLOY_IRIDIUM = new SupremeItemStack("SUPREME_ALLOY_IRIDIUM",
-      Material.IRON_INGOT, "&aAlloy Iridium", "", "&3Supreme Components");
+      Material.IRON_INGOT, "&aIridium Alloy", "", "&3Supreme Components");
   public static final ItemStack[] RECIPE_ALLOY_IRIDIUM = {SlimefunItems.SILVER_DUST, SlimefunItems.BILLON_INGOT,
       SlimefunItems.SILVER_INGOT, null, null, null, null, null, null};
 
@@ -123,7 +123,7 @@ public class SupremeComponents {
       SupremeComponents.ALLOY_IRIDIUM, SupremeComponents.ALLOY_IRIDIUM};
 
   public static final SlimefunItemStack ALLOY_AURUM = new SupremeItemStack("SUPREME_ALLOY_AURUM", Material.GOLD_INGOT,
-      "&aAlloy Aurum", "", "&3Supreme Components");
+      "&aAura Monster Alloy", "", "&3Supreme Components");
   public static final ItemStack[] RECIPE_ALLOY_AURUM = {SlimefunItems.GOLD_DUST, SlimefunItems.COBALT_INGOT,
       SlimefunItems.GOLD_24K, null, null, null, null, null, null};
 
@@ -135,7 +135,7 @@ public class SupremeComponents {
       SupremeComponents.ALLOY_AURUM};
 
   public static final SlimefunItemStack ALLOY_MANGANESE = new SupremeItemStack("SUPREME_ALLOY_MANGANESE",
-      Material.GOLD_INGOT, "&aAlloy Manganese", "", "&3Supreme Components");
+      Material.GOLD_INGOT, "&aManganese Alloy", "", "&3Supreme Components");
   public static final ItemStack[] RECIPE_ALLOY_MANGANESE = {SlimefunItems.MAGNESIUM_DUST, SlimefunItems.DURALUMIN_INGOT,
       SlimefunItems.MAGNESIUM_INGOT, null, null, null, null, null, null};
 
@@ -147,7 +147,7 @@ public class SupremeComponents {
       SupremeComponents.ALLOY_MANGANESE, SupremeComponents.ALLOY_MANGANESE};
 
   public static final SlimefunItemStack ALLOY_PLATINUM = new SupremeItemStack("SUPREME_ALLOY_PLATINUM",
-      Material.GOLD_INGOT, "&aAlloy Platinum", "", "&3Supreme Components");
+      Material.GOLD_INGOT, "&aPlatinum Alloy", "", "&3Supreme Components");
   public static final ItemStack[] RECIPE_ALLOY_PLATINUM = {SlimefunItems.LEAD_DUST, SlimefunItems.BRASS_INGOT,
       SlimefunItems.LEAD_INGOT, null, null, null, null, null, null};
 
@@ -159,12 +159,12 @@ public class SupremeComponents {
       SupremeComponents.ALLOY_PLATINUM, SupremeComponents.ALLOY_PLATINUM};
 
   public static final SlimefunItemStack ALLOY_ADAMANTIUM = new SupremeItemStack("SUPREME_ALLOY_ADAMANTIUM",
-      Material.NETHERITE_INGOT, "&aAlloy Adamantium", "", "&3Supreme Components");
+      Material.NETHERITE_INGOT, "&aEvewomantium Alloy", "", "&3Supreme Components");
   public static final ItemStack[] RECIPE_ALLOY_ADAMANTIUM = {SlimefunItems.ALUMINUM_DUST,
       SlimefunItems.REINFORCED_ALLOY_INGOT, SlimefunItems.ALUMINUM_INGOT, null, null, null, null, null, null};
 
   public static final SlimefunItemStack ADAMANTIUM_PLATE = new SupremeItemStack("SUPREME_ADAMANTIUM_PLATE",
-      Material.NETHERITE_BLOCK, "&aAdawomantium Plate", "", "&3Supreme Components");
+      Material.NETHERITE_BLOCK, "&aEvewomantium Plate", "", "&3Supreme Components");
   public static final ItemStack[] RECIPE_ADAMANTIUM_PLATE = {SupremeComponents.ALLOY_ADAMANTIUM,
       SupremeComponents.ALLOY_ADAMANTIUM, SupremeComponents.ALLOY_ADAMANTIUM, SupremeCoreBlock.RESOURCE_CORE_STONE,
       SupremeCoreBlock.RESOURCE_CORE_STONE, SupremeCoreBlock.RESOURCE_CORE_STONE, SupremeComponents.ALLOY_ADAMANTIUM,
@@ -302,7 +302,7 @@ public class SupremeComponents {
       "&aBerserk Gene", "", "&3Supreme Component");
 
   public static final SlimefunItemStack GENE_INTELLIGENCE = new SupremeItemStack("SUPREME_GENE_INTELLIGENCE",
-      Material.TUBE_CORAL, "&fIntelligence Gene", "", "&3Supreme Component");
+      Material.TUBE_CORAL, "&3Intelligence Gene", "", "&3Supreme Component");
 
   public static final SlimefunItemStack GENE_LUCK = new SupremeItemStack("SUPREME_GENE_LUCK", Material.HORN_CORAL,
       "&aLuck Gene", "", "&3Supreme Component");
