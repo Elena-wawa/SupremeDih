@@ -33,6 +33,9 @@ public class SetupResourceCore {
     registerCoreFabricator(SupremeCoreBlock.RESOURCE_CORE_STAIRS,
         CustomCoreRecipe.getRecipe(SupremeCoreBlock.RECIPE_RESOURCE_CORE_STAIRS));
 
+    registerCoreFabricator(SupremeCoreBlock.RESOURCE_CORE_DIRT,
+        CustomCoreRecipe.getRecipe(SupremeCoreBlock.RECIPE_RESOURCE_CORE_DIRT));
+
     registerCoreFabricator(SupremeCoreBlock.RESOURCE_CORE_SAND,
         CustomCoreRecipe.getRecipe(SupremeCoreBlock.RECIPE_RESOURCE_CORE_SAND));
 
