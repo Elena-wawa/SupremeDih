@@ -23,7 +23,7 @@ import org.springframework.scheduling.annotation.Async;
 public class ForgeIngot extends SimpleItemWithLargeContainerMachine {
 
   public static final SlimefunItemStack FORGE_INGOT_MACHINE = new SupremeItemStack("SUPREME_FORGE_INGOT_I",
-      Material.BLAST_FURNACE, "&bForge Ingot", "", "&fThis machine allows you to", "&fforge ingot resources.", "",
+      Material.BLAST_FURNACE, "&bPicky Forge", "", "&fThis machine allows you to", "&fforge certain resources.", "",
       LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE), LoreBuilder.speed(1),
       LoreBuilder.powerBuffer(1000), LoreBuilder.powerPerSecond(20), "", "&3Supreme Machine");
   public static final ItemStack[] RECIPE_FORGE_INGOT_MACHINE = new ItemStack[]{SupremeComponents.RUSTLESS_MACHINE,
@@ -32,7 +32,7 @@ public class ForgeIngot extends SimpleItemWithLargeContainerMachine {
       SlimefunItems.ELECTRIC_SMELTERY_2, SlimefunItems.CARBON_PRESS_3};
 
   public static final SlimefunItemStack FORGE_INGOT_MACHINE_II = new SupremeItemStack("SUPREME_FORGE_INGOT_II",
-      Material.BLAST_FURNACE, "&bForge Ingot II", "", "&fThis machine allows you to", "&fforge ingot resources.", "",
+      Material.BLAST_FURNACE, "&bPicky Forge II", "", "&fThis machine allows you to", "&fforge certain resources.", "",
       LoreBuilder.machine(MachineTier.END_GAME, MachineType.MACHINE), LoreBuilder.speed(5),
       LoreBuilder.powerBuffer(5000), LoreBuilder.powerPerSecond(100), "", "&3Supreme Machine");
   public static final ItemStack[] RECIPE_FORGE_INGOT_MACHINE_II = new ItemStack[]{SupremeComponents.CONVEYANCE_MACHINE,
@@ -41,7 +41,7 @@ public class ForgeIngot extends SimpleItemWithLargeContainerMachine {
       SupremeCetrus.CETRUS_LUMIUM, SupremeComponents.THORNERITE};
 
   public static final SlimefunItemStack FORGE_INGOT_MACHINE_III = new SupremeItemStack("SUPREME_FORGE_INGOT_III",
-      Material.BLAST_FURNACE, "&bForge Ingot III", "", "&fThis machine allows you to", "&fforge ingot resources.", "",
+      Material.BLAST_FURNACE, "&bPicky Forge III", "", "&fThis machine allows you to", "&fforge certain resources.", "",
       LoreBuilder.machine(MachineTier.END_GAME, MachineType.MACHINE), LoreBuilder.speed(15),
       LoreBuilder.powerBuffer(15000), LoreBuilder.powerPerSecond(300), "", "&3Supreme Machine");
   public static final ItemStack[] RECIPE_FORGE_INGOT_MACHINE_III = new ItemStack[]{SupremeComponents.THORNERITE,
