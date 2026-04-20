@@ -40,7 +40,7 @@ public class SupremeCoreLife {
       Material.HONEY_BOTTLE, Material.SUGAR_CANE);
 
   public static final SlimefunItemStack RESOURCE_CORE_SWEET_BERRIES = new SupremeItemStack("SUPREME_CORE_SWEET_BERRIES",
-      "b4ec3fcd557269a1a0b9bfa8a02dae1a39fa0ee8ff40e0cb8a96479be04b6609", "&aSupreme Barries", "", "&7A super barries",
+      "b4ec3fcd557269a1a0b9bfa8a02dae1a39fa0ee8ff40e0cb8a96479be04b6609", "&aSupreme Berries", "", "&7A super berry bush",
       "", "&3Supreme Core Components");
   public static final CustomCoreRecipe RECIPE_RESOURCE_CORE_SWEET_BERRIES = new CustomCoreRecipe(
       RESOURCE_CORE_SWEET_BERRIES, Material.HONEY_BOTTLE, Material.SWEET_BERRIES);
