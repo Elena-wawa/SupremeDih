@@ -48,7 +48,7 @@ import java.util.Objects;
 public class TechMutation extends SimpleItemContainerMachine implements Radioactive {
 
   public static final SlimefunItemStack TECH_MUTATION_I = new SupremeItemStack("SUPREME_TECH_MUTATION_I",
-      Material.SLIME_BLOCK, "&bTech Mutation", "", "&fUse generator mutation ", "&fto progress to higher levels", "",
+      Material.SLIME_BLOCK, "&bTech Mutator", "", "&fUse TechMob mutation ", "&fto attain higher output", "",
       LoreBuilder.radioactive(Radioactivity.VERY_HIGH), "",
       LoreBuilder.machine(MachineTier.END_GAME, MachineType.MACHINE), UtilEnergy.energyPowerPerSecond(500), "",
       "&3Supreme Machine");
@@ -58,7 +58,7 @@ public class TechMutation extends SimpleItemContainerMachine implements Radioact
       SupremeCore.CORE_OF_DEATH, SupremeComponents.RUSTLESS_MACHINE};
 
   public static final SlimefunItemStack TECH_MUTATION_II = new SupremeItemStack("SUPREME_TECH_MUTATION_II",
-      Material.SLIME_BLOCK, "&bTech Mutation II", "", "&fUse generator mutation ", "&fto progress to higher levels", "",
+      Material.SLIME_BLOCK, "&bTech Mutator II", "", "&fUse TechMob mutation ", "&fto attain higher output", "",
       "&fChance factor multiplied by 2x", "", LoreBuilder.radioactive(Radioactivity.VERY_HIGH), "",
       LoreBuilder.machine(MachineTier.END_GAME, MachineType.MACHINE), UtilEnergy.energyPowerPerSecond(500), "",
       "&3Supreme Machine");
@@ -68,7 +68,7 @@ public class TechMutation extends SimpleItemContainerMachine implements Radioact
       SupremeCetrus.CETRUS_IGNIS, SupremeComponents.THORNERITE};
 
   public static final SlimefunItemStack TECH_MUTATION_III = new SupremeItemStack("SUPREME_TECH_MUTATION_III",
-      Material.SLIME_BLOCK, "&bTech Mutation III", "", "&fUse generator mutation ", "&fto progress to higher levels",
+      Material.SLIME_BLOCK, "&bTech Mutator III", "", "&fUse TechMob mutation ", "&fto attain higher output",
       "", "&fChance factor multiplied by 4x", "", LoreBuilder.radioactive(Radioactivity.VERY_HIGH), "",
       LoreBuilder.machine(MachineTier.END_GAME, MachineType.MACHINE), UtilEnergy.energyPowerPerSecond(500), "",
       "&3Supreme Machine");
