@@ -45,6 +45,12 @@ public class SupremeCoreBlock {
   public static final CustomCoreRecipe RECIPE_RESOURCE_CORE_STAIRS = new CustomCoreRecipe(RESOURCE_CORE_STAIRS,
       Material.STONE_BRICK_STAIRS);
 
+  public static final SlimefunItemStack RESOURCE_CORE_STAIRS = new SupremeItemStack("SUPREME_CORE_DIRT",
+      "f91209a21302f764b37060c86062a515f533b1a4f90593653ab23b33bfd7a068", "&aSupreme Dirt", "", "&7A super dirt",
+      "", "&3Supreme Core Components");
+  public static final CustomCoreRecipe RECIPE_RESOURCE_CORE_DIRT = new CustomCoreRecipe(RESOURCE_CORE_DIRT,
+      Material.DIRT);
+
   public static final SlimefunItemStack RESOURCE_CORE_SAND = new SupremeItemStack("SUPREME_CORE_SAND",
       "53398ab3cb696b34430be944b14afbd227fd87e99026bcfc8b7387a861bde", "&aSupreme Sand", "", "&7A super sand", "",
       "&3Supreme Core Components");
