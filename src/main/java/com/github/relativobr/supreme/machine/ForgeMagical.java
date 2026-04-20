@@ -23,7 +23,7 @@ import org.springframework.scheduling.annotation.Async;
 public class ForgeMagical extends SimpleItemWithLargeContainerMachine {
 
   public static final SlimefunItemStack FORGE_MAGICAL_MACHINE = new SupremeItemStack("SUPREME_FORGE_MAGICAL_I",
-      Material.ENCHANTING_TABLE, "&bForge Magical", "", "&fThis machine allows you to", "&fforge magical resources.",
+      Material.ENCHANTING_TABLE, "&bMagical Forge", "", "&fThis machine allows you to", "&fforge magical resources.",
       "", LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE), LoreBuilder.speed(1),
       LoreBuilder.powerBuffer(1000), LoreBuilder.powerPerSecond(20), "", "&3Supreme Machine");
   public static final ItemStack[] RECIPE_FORGE_MAGICAL_MACHINE = new ItemStack[]{SupremeComponents.RUSTLESS_MACHINE,
@@ -32,7 +32,7 @@ public class ForgeMagical extends SimpleItemWithLargeContainerMachine {
       SlimefunItems.PROGRAMMABLE_ANDROID_3, SlimefunItems.ELECTRIC_ORE_GRINDER_3};
 
   public static final SlimefunItemStack FORGE_MAGICAL_MACHINE_II = new SupremeItemStack("SUPREME_FORGE_MAGICAL_II",
-      Material.ENCHANTING_TABLE, "&bForge Magical II", "", "&fThis machine allows you to", "&fforge magical resources.",
+      Material.ENCHANTING_TABLE, "&bMagical Forge II", "", "&fThis machine allows you to", "&fforge magical resources.",
       "", LoreBuilder.machine(MachineTier.END_GAME, MachineType.MACHINE), LoreBuilder.speed(5),
       LoreBuilder.powerBuffer(5000), LoreBuilder.powerPerSecond(100), "", "&3Supreme Machine");
   public static final ItemStack[] RECIPE_FORGE_MAGICAL_MACHINE_II = new ItemStack[]{
@@ -41,7 +41,7 @@ public class ForgeMagical extends SimpleItemWithLargeContainerMachine {
       SupremeComponents.THORNERITE, SupremeCetrus.CETRUS_LUMIUM, SupremeComponents.THORNERITE};
 
   public static final SlimefunItemStack FORGE_MAGICAL_MACHINE_III = new SupremeItemStack("SUPREME_FORGE_MAGICAL_III",
-      Material.ENCHANTING_TABLE, "&bForge Magical III", "", "&fThis machine allows you to",
+      Material.ENCHANTING_TABLE, "&bMagical Forge III", "", "&fThis machine allows you to",
       "&fforge magical resources.", "", LoreBuilder.machine(MachineTier.END_GAME, MachineType.MACHINE),
       LoreBuilder.speed(15), LoreBuilder.powerBuffer(15000), LoreBuilder.powerPerSecond(300), "", "&3Supreme Machine");
   public static final ItemStack[] RECIPE_FORGE_MAGICAL_MACHINE_III = new ItemStack[]{SupremeComponents.THORNERITE,
