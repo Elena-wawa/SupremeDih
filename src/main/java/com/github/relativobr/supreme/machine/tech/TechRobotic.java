@@ -47,18 +47,18 @@ import java.util.Objects;
 public class TechRobotic extends SimpleItemContainerMachine implements Radioactive {
 
   public static final SlimefunItemStack TECH_ROBOTIC = new SupremeItemStack("SUPREME_TECH_ROBOTIC",
-      Material.POLISHED_BLACKSTONE, "&bTech Robotic", "", "&fUse beginner level robots ",
-      "&fto progress to higher levels", "&fneed 64x to upgrade", "", LoreBuilder.radioactive(Radioactivity.VERY_HIGH), "",
+      Material.POLISHED_BLACKSTONE, "&bTech Fusion Station GAY REMOVED EVIL", "", "&fUse beginner level robots ",
+      "&fto combine into higher levels", "&fneed 64 to combine", "", LoreBuilder.radioactive(Radioactivity.VERY_HIGH), "",
       LoreBuilder.machine(MachineTier.END_GAME, MachineType.MACHINE), UtilEnergy.energyPowerPerSecond(500), "",
       "&3Supreme Machine");
   public static final ItemStack[] RECIPE_TECH_ROBOTIC = {SupremeComponents.INDUCTIVE_MACHINE,
       SupremeComponents.SYNTHETIC_RUBY, SupremeComponents.INDUCTIVE_MACHINE, SlimefunItems.REINFORCED_PLATE,
-      SlimefunItems.ELECTRIC_MOTOR, SlimefunItems.REINFORCED_PLATE, SupremeComponents.RUSTLESS_MACHINE,
+      SlimefunItems.HEATING_COIL, SlimefunItems.REINFORCED_PLATE, SupremeComponents.RUSTLESS_MACHINE,
       SupremeCore.CORE_OF_BLOCK, SupremeComponents.RUSTLESS_MACHINE};
 
   public static final SlimefunItemStack TECH_ROBOTIC_II = new SupremeItemStack("SUPREME_TECH_ROBOTIC_II",
-      Material.POLISHED_BLACKSTONE, "&bTech Robotic II", "", "&fUse beginner level robots ",
-      "&fto progress to higher levels", "&fneed 32x to upgrade", "", LoreBuilder.radioactive(Radioactivity.VERY_HIGH), "",
+      Material.POLISHED_BLACKSTONE, "&bTech Fusion Station GAYER REMOVED EVIL", "", "&fUse beginner level robots ",
+      "&fto combine into higher levels", "&fneed 32 to combine", "", LoreBuilder.radioactive(Radioactivity.VERY_HIGH), "",
       LoreBuilder.machine(MachineTier.END_GAME, MachineType.MACHINE), UtilEnergy.energyPowerPerSecond(500), "",
       "&3Supreme Machine");
   public static final ItemStack[] RECIPE_TECH_ROBOTIC_II = new ItemStack[]{SupremeComponents.CONVEYANCE_MACHINE,
@@ -67,14 +67,14 @@ public class TechRobotic extends SimpleItemContainerMachine implements Radioacti
       SupremeCetrus.CETRUS_IGNIS, SupremeComponents.THORNERITE};
 
   public static final SlimefunItemStack TECH_ROBOTIC_III = new SupremeItemStack("SUPREME_TECH_ROBOTIC_III",
-      Material.POLISHED_BLACKSTONE, "&bTech Robotic III", "", "&fUse beginner level robots ",
-      "&fto progress to higher levels", "&fneed 16x to upgrade", "", LoreBuilder.radioactive(Radioactivity.VERY_HIGH), "",
+      Material.POLISHED_BLACKSTONE, "&bTech Fusion Station", "", "&fUse beginner level robots ",
+      "&fto combine into higher levels", "&fneed 16 to combine", "", LoreBuilder.radioactive(Radioactivity.VERY_HIGH), "",
       LoreBuilder.machine(MachineTier.END_GAME, MachineType.MACHINE), UtilEnergy.energyPowerPerSecond(500), "",
       "&3Supreme Machine");
-  public static final ItemStack[] RECIPE_TECH_ROBOTIC_III = new ItemStack[]{SupremeComponents.THORNERITE,
-      SupremeAttribute.getImpetus(), SupremeComponents.THORNERITE, SupremeComponents.SUPREME,
-      TechRobotic.TECH_ROBOTIC_II, SupremeComponents.SUPREME, SupremeComponents.CRYSTALLIZER_MACHINE,
-      SupremeCetrus.CETRUS_LUMIUM, SupremeComponents.CRYSTALLIZER_MACHINE};
+  public static final ItemStack[] RECIPE_TECH_ROBOTIC_III = {SupremeComponents.INDUCTIVE_MACHINE,
+      SupremeComponents.SYNTHETIC_RUBY, SupremeComponents.INDUCTIVE_MACHINE, SlimefunItems.REINFORCED_PLATE,
+      SlimefunItems.ELECTRIC_MOTOR, SlimefunItems.REINFORCED_PLATE, SupremeComponents.RUSTLESS_MACHINE,
+      SupremeCore.CORE_OF_BLOCK, SupremeComponents.RUSTLESS_MACHINE};
 
   public static final List<AbstractItemRecipe> recipes = new ArrayList<>();
   private Map<Block, ItemStack> processing = new HashMap<>();
