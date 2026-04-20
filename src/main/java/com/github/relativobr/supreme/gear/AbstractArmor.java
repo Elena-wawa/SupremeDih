@@ -114,7 +114,7 @@ public class AbstractArmor extends SlimefunArmorPiece implements ProtectiveArmor
 
   @Override
   public boolean isFullSetRequired() {
-    return false;
+    return true;
   }
 
   @Nonnull
