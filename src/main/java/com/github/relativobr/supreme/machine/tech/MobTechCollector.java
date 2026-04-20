@@ -50,7 +50,7 @@ public class MobTechCollector extends SimpleItemWithLargeContainerMachine {
 
   public static final SlimefunItemStack MOB_TECH_COLLECTOR_MACHINE_I = new SupremeItemStack(
       "MOB_TECH_COLLECTOR_MACHINE", Material.NETHER_GOLD_ORE, "&bMobTech Collector I", "",
-      "&fThis machine allows you to collect ", "&fMobTech head nearby mobs. (3 block)", "",
+      "&fThis machine allows you to collect ", "&fthe technologized heads of nearby mobs. (3 block)", "",
       LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE), LoreBuilder.speed(1),
       LoreBuilder.powerBuffer(1000), LoreBuilder.powerPerSecond(20), "", "&3Supreme Machine");
   public static final ItemStack[] RECIPE_MOB_TECH_COLLECTOR_MACHINE_I = new ItemStack[]{
@@ -60,7 +60,7 @@ public class MobTechCollector extends SimpleItemWithLargeContainerMachine {
 
   public static final SlimefunItemStack MOB_TECH_COLLECTOR_MACHINE_II = new SupremeItemStack(
       "SUPREME_MOB_TECH_COLLECTOR_MACHINE_II", Material.NETHER_GOLD_ORE, "&bMobTech Collector II", "",
-      "&fThis machine allows you to collect ", "&fMobTech head nearby mobs. (6 block)", "",
+      "&fThis machine allows you to collect ", "&fthe technologized heads of nearby mobs. (6 block)", "",
       LoreBuilder.machine(MachineTier.END_GAME, MachineType.MACHINE), LoreBuilder.speed(1),
       LoreBuilder.powerBuffer(1000), LoreBuilder.powerPerSecond(20), "", "&3Supreme Machine");
   public static final ItemStack[] RECIPE_MOB_TECH_COLLECTOR_MACHINE_II = new ItemStack[]{
@@ -71,7 +71,7 @@ public class MobTechCollector extends SimpleItemWithLargeContainerMachine {
 
   public static final SlimefunItemStack MOB_TECH_COLLECTOR_MACHINE_III = new SupremeItemStack(
       "SUPREME_MOB_TECH_COLLECTOR_MACHINE_III", Material.NETHER_GOLD_ORE, "&bMobTech Collector III", "",
-      "&fThis machine allows you to collect ", "&fMobTech head nearby mobs. (9 block)", "",
+      "&fThis machine allows you to collect ", "&fthe technologized heads of nearby mobs. (9 block)", "",
       LoreBuilder.machine(MachineTier.END_GAME, MachineType.MACHINE), LoreBuilder.speed(1),
       LoreBuilder.powerBuffer(1000), LoreBuilder.powerPerSecond(20), "", "&3Supreme Machine");
   public static final ItemStack[] RECIPE_MOB_TECH_COLLECTOR_MACHINE_III = new ItemStack[]{SupremeComponents.THORNERITE,
