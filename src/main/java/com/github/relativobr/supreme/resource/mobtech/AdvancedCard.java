@@ -16,158 +16,158 @@ public class AdvancedCard {
    */
 
   public static final SlimefunItemStack CARD_SOLDER_INGOT = new SupremeItemStack("SUPREME_CARD_SOLDER",
-      Material.MUSIC_DISC_BLOCKS, "&bCard Machine Solder Ingot", "", "&fChange to Production Solder Ingot", "",
+      Material.MUSIC_DISC_BLOCKS, "&bCard Machine Solder Ingot", "", "&fChange to Produce Solder Ingot", "",
       LoreBuilder.machine(MachineTier.MEDIUM, MachineType.MACHINE), "", "&3Supreme Component");
 
   public static final SlimefunItemStack CARD_BILLON_INGOT = new SupremeItemStack("SUPREME_CARD_BILLON",
-      Material.MUSIC_DISC_BLOCKS, "&bCard Machine Billon Ingot", "", "&fChange to Production Billon Ingot", "",
+      Material.MUSIC_DISC_BLOCKS, "&bCard Machine Billon Ingot", "", "&fChange to Produce Billon Ingot", "",
       LoreBuilder.machine(MachineTier.MEDIUM, MachineType.MACHINE), "", "&3Supreme Component");
 
   public static final SlimefunItemStack CARD_BRONZE_INGOT = new SupremeItemStack("SUPREME_CARD_BRONZE",
-      Material.MUSIC_DISC_BLOCKS, "&bCard Machine Bronze Ingot", "", "&fChange to Production Bronze Ingot", "",
+      Material.MUSIC_DISC_BLOCKS, "&bCard Machine Bronze Ingot", "", "&fChange to Produce Bronze Ingot", "",
       LoreBuilder.machine(MachineTier.MEDIUM, MachineType.MACHINE), "", "&3Supreme Component");
 
   public static final SlimefunItemStack CARD_BRASS_INGOT = new SupremeItemStack("SUPREME_CARD_BRASS",
-      Material.MUSIC_DISC_BLOCKS, "&bCard Machine Brass Ingot", "", "&fChange to Production Brass Ingot", "",
+      Material.MUSIC_DISC_BLOCKS, "&bCard Machine Brass Ingot", "", "&fChange to Produce Brass Ingot", "",
       LoreBuilder.machine(MachineTier.MEDIUM, MachineType.MACHINE), "", "&3Supreme Component");
 
   public static final SlimefunItemStack CARD_SULFATE = new SupremeItemStack("SUPREME_CARD_SULFATE",
-      Material.MUSIC_DISC_BLOCKS, "&bCard de Sulfate", "", "&fChange to Production Sulfate", "",
+      Material.MUSIC_DISC_BLOCKS, "&bCard de Sulfate", "", "&fChange to Produce Sulfate", "",
       LoreBuilder.machine(MachineTier.MEDIUM, MachineType.MACHINE), "", "&3Supreme Component");
 
   public static final SlimefunItemStack CARD_CARBON = new SupremeItemStack("SUPREME_CARD_CARBON",
-      Material.MUSIC_DISC_BLOCKS, "&bCard Machine Carbon", "", "&fChange to Production Carbon", "",
+      Material.MUSIC_DISC_BLOCKS, "&bCard Machine Carbon", "", "&fChange to Produce Carbon", "",
       LoreBuilder.machine(MachineTier.MEDIUM, MachineType.MACHINE), "", "&3Supreme Component");
 
 
   public static final SlimefunItemStack CARD_SILICON = new SupremeItemStack("SUPREME_CARD_SILICON",
-      Material.MUSIC_DISC_BLOCKS, "&bCard Machine Silicon", "", "&fChange to Production Silicon", "",
+      Material.MUSIC_DISC_BLOCKS, "&bCard Machine Silicon", "", "&fChange to Produce Silicon", "",
       LoreBuilder.machine(MachineTier.MEDIUM, MachineType.MACHINE), "", "&3Supreme Component");
 
 
   public static final SlimefunItemStack CARD_STEEL = new SupremeItemStack("SUPREME_CARD_STEEL",
-      Material.MUSIC_DISC_BLOCKS, "&bCard Machine Steel", "", "&fChange to Production Steel", "",
+      Material.MUSIC_DISC_BLOCKS, "&bCard Machine Steel", "", "&fChange to Produce Steel", "",
       LoreBuilder.machine(MachineTier.MEDIUM, MachineType.MACHINE), "", "&3Supreme Component");
 
 
   public static final SlimefunItemStack CARD_NICKEL = new SupremeItemStack("SUPREME_CARD_NICKEL",
-      Material.MUSIC_DISC_BLOCKS, "&bCard Machine Nickel", "", "&fChange to Production Nickel", "",
+      Material.MUSIC_DISC_BLOCKS, "&bCard Machine Nickel", "", "&fChange to Produce Nickel", "",
       LoreBuilder.machine(MachineTier.MEDIUM, MachineType.MACHINE), "", "&3Supreme Component");
 
 
   public static final SlimefunItemStack CARD_FERROSILICON = new SupremeItemStack("SUPREME_CARD_FERROSILICON",
-      Material.MUSIC_DISC_BLOCKS, "&bCard Machine Ferrosilicon", "", "&fChange to Production Ferrosilicon", "",
+      Material.MUSIC_DISC_BLOCKS, "&bCard Machine Ferrosilicon", "", "&fChange to Produce Ferrosilicon", "",
       LoreBuilder.machine(MachineTier.MEDIUM, MachineType.MACHINE), "", "&3Supreme Component");
 
 
   public static final SlimefunItemStack CARD_DAMASCUS = new SupremeItemStack("SUPREME_CARD_DAMASCUS",
-      Material.MUSIC_DISC_BLOCKS, "&bCard Machine Damascus", "", "&fChange to Production Damascus", "",
+      Material.MUSIC_DISC_BLOCKS, "&bCard Machine Damascus", "", "&fChange to Produce Damascus", "",
       LoreBuilder.machine(MachineTier.MEDIUM, MachineType.MACHINE), "", "&3Supreme Component");
 
 
   public static final SlimefunItemStack CARD_COBALT = new SupremeItemStack("SUPREME_CARD_COBALT",
-      Material.MUSIC_DISC_BLOCKS, "&bCard Machine Cobalt", "", "&fChange to Production Cobalt", "",
+      Material.MUSIC_DISC_BLOCKS, "&bCard Machine Cobalt", "", "&fChange to Produce Cobalt", "",
       LoreBuilder.machine(MachineTier.MEDIUM, MachineType.MACHINE), "", "&3Supreme Component");
 
 
   public static final SlimefunItemStack CARD_DURALUMIN_INGOT = new SupremeItemStack("SUPREME_CARD_DURALUMIN",
-      Material.MUSIC_DISC_BLOCKS, "&bCard Machine Duralumin Ingot", "", "&fChange to Production Duralumin Ingot", "",
+      Material.MUSIC_DISC_BLOCKS, "&bCard Machine Duralumin Ingot", "", "&fChange to Produce Duralumin Ingot", "",
       LoreBuilder.machine(MachineTier.MEDIUM, MachineType.MACHINE), "", "&3Supreme Component");
 
 
   public static final SlimefunItemStack CARD_ALUMINUM_BRONZE_INGOT = new SupremeItemStack(
       "SUPREME_CARD_ALUMINUM_BRONZE", Material.MUSIC_DISC_CHIRP, "&bCard Machine Aluminum Bronze Ingot", "",
-      "&fChange to Production Aluminum Bronze Ingot", "",
+      "&fChange to Produce Aluminum Bronze Ingot", "",
       LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE), "", "&3Supreme Component");
 
 
   public static final SlimefunItemStack CARD_ALUMINUM_BRASS_INGOT = new SupremeItemStack("SUPREME_CARD_ALUMINUM_BRASS",
       Material.MUSIC_DISC_CHIRP, "&bCard Machine Aluminum Brass Ingot", "",
-      "&fChange to Production Aluminum Brass Ingot", "",
+      "&fChange to Produce Aluminum Brass Ingot", "",
       LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE), "", "&3Supreme Component");
 
 
   public static final SlimefunItemStack CARD_CORINTHIAN_BRONZE_INGOT = new SupremeItemStack(
       "SUPREME_CARD_CORINTHIAN_BRONZE", Material.MUSIC_DISC_CHIRP, "&bCard Machine Corinthian Bronze Ingot", "",
-      "&fChange to Production Corinthian Bronze Ingot", "",
+      "&fChange to Produce Corinthian Bronze Ingot", "",
       LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE), "", "&3Supreme Component");
 
 
   public static final SlimefunItemStack CARD_GOLD24K = new SupremeItemStack("SUPREME_CARD_GOLD24K",
-      Material.MUSIC_DISC_CHIRP, "&bCard Machine Gold 24k", "", "&fChange to Production Gold 24k", "",
+      Material.MUSIC_DISC_CHIRP, "&bCard Machine Gold 24k", "", "&fChange to Produce Gold 24k", "",
       LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE), "", "&3Supreme Component");
 
 
   public static final SlimefunItemStack CARD_CARBON_PRESS = new SupremeItemStack("SUPREME_CARD_CARBON_PRESS",
-      Material.MUSIC_DISC_CHIRP, "&bCard Machine Compressed Carbon", "", "&fChange to Production Compressed Carbon", "",
+      Material.MUSIC_DISC_CHIRP, "&bCard Machine Compressed Carbon", "", "&fChange to Produce Compressed Carbon", "",
       LoreBuilder.machine(MachineTier.MEDIUM, MachineType.MACHINE), "", "&3Supreme Component");
 
 
   public static final SlimefunItemStack CARD_HARDENED_METAL_INGOT = new SupremeItemStack("SUPREME_CARD_HARDENED_METAL",
       Material.MUSIC_DISC_CHIRP, "&bCard Machine Hardened Metal Ingot", "",
-      "&fChange to Production Hardened Metal Ingot", "", LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE),
+      "&fChange to Produce Hardened Metal Ingot", "", LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE),
       "", "&3Supreme Component");
 
 
   public static final SlimefunItemStack CARD_REDSTONE_ALLOY = new SupremeItemStack("SUPREME_CARD_REDSTONE_ALLOY",
-      Material.MUSIC_DISC_CHIRP, "&bCard Machine Redstone Alloy", "", "&fChange to Production Redstone Alloy", "",
+      Material.MUSIC_DISC_CHIRP, "&bCard Machine Redstone Alloy", "", "&fChange to Produce Redstone Alloy", "",
       LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE), "", "&3Supreme Component");
 
 
   public static final SlimefunItemStack CARD_PLASTIC_SHEET = new SupremeItemStack("SUPREME_CARD_PLASTIC_SHEET",
-      Material.MUSIC_DISC_CHIRP, "&bCard Machine Plastic Sheet", "", "&fChange to Production Plastic Sheet", "",
+      Material.MUSIC_DISC_CHIRP, "&bCard Machine Plastic Sheet", "", "&fChange to Produce Plastic Sheet", "",
       LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE), "", "&3Supreme Component");
 
 
   public static final SlimefunItemStack CARD_BATTERY = new SupremeItemStack("SUPREME_CARD_BATTERY",
-      Material.MUSIC_DISC_CHIRP, "&bCard Machine Battery", "", "&fChange to Production Battery", "",
+      Material.MUSIC_DISC_CHIRP, "&bCard Machine Battery", "", "&fChange to Produce Battery", "",
       LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE), "", "&3Supreme Component");
 
 
   public static final SlimefunItemStack CARD_MAGNET = new SupremeItemStack("SUPREME_CARD_MAGNET",
-      Material.MUSIC_DISC_CHIRP, "&bCard Machine Magnet", "", "&fChange to Production Magnet", "",
+      Material.MUSIC_DISC_CHIRP, "&bCard Machine Magnet", "", "&fChange to Produce Magnet", "",
       LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE), "", "&3Supreme Component");
 
 
   public static final SlimefunItemStack CARD_ELECTRO_MAGNET = new SupremeItemStack("SUPREME_CARD_ELECTRO_MAGNET",
-      Material.MUSIC_DISC_MALL, "&bCard Machine Electro Magnet", "", "&fChange to Production Electro Magnet", "",
+      Material.MUSIC_DISC_MALL, "&bCard Machine Electro Magnet", "", "&fChange to Produce Electro Magnet", "",
       LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE), "", "&3Supreme Component");
 
 
   public static final SlimefunItemStack CARD_ELECTRIC_MOTOR = new SupremeItemStack("SUPREME_CARD_ELECTRIC_MOTOR",
-      Material.MUSIC_DISC_MALL, "&bCard Machine Electric Motor", "", "&fChange to Production Electric Motor", "",
+      Material.MUSIC_DISC_MALL, "&bCard Machine Electric Motor", "", "&fChange to Produce Electric Motor", "",
       LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE), "", "&3Supreme Component");
 
 
   public static final SlimefunItemStack CARD_HEATING_COIL = new SupremeItemStack("SUPREME_CARD_HEATING_COIL",
-      Material.MUSIC_DISC_MALL, "&bCard Machine Heating Coil", "", "&fChange to Production Heating Coil", "",
+      Material.MUSIC_DISC_MALL, "&bCard Machine Heating Coil", "", "&fChange to Produce Heating Coil", "",
       LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE), "", "&3Supreme Component");
 
 
   public static final SlimefunItemStack CARD_SYNTHETIC_SAPPHIRE = new SupremeItemStack(
       "SUPREME_CARD_SYNTHETIC_SAPPHIRE", Material.MUSIC_DISC_MALL, "&bCard Machine Synthetic Sapphire", "",
-      "&fChange to Production Synthetic Sapphire", "", LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE),
+      "&fChange to Produce Synthetic Sapphire", "", LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE),
       "", "&3Supreme Component");
 
 
   public static final SlimefunItemStack CARD_SYNTHETIC_EMERALD = new SupremeItemStack("SUPREME_CARD_SYNTHETIC_EMERALD",
-      Material.MUSIC_DISC_MALL, "&bCard Machine Synthetic Emerald", "", "&fChange to Production Synthetic Emerald", "",
+      Material.MUSIC_DISC_MALL, "&bCard Machine Synthetic Emerald", "", "&fChange to Produce Synthetic Emerald", "",
       LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE), "", "&3Supreme Component");
 
 
   public static final SlimefunItemStack CARD_SYNTHETIC_DIAMOND = new SupremeItemStack("SUPREME_CARD_SYNTHETIC_DIAMOND",
-      Material.MUSIC_DISC_MALL, "&bCard Machine Synthetic Diamond", "", "&fChange to Production Synthetic Diamond", "",
+      Material.MUSIC_DISC_MALL, "&bCard Machine Synthetic Diamond", "", "&fChange to Produce Synthetic Diamond", "",
       LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE), "", "&3Supreme Component");
 
 
   public static final SlimefunItemStack CARD_CARBONADO = new SupremeItemStack("SUPREME_CARD_CARBONADO",
-      Material.MUSIC_DISC_STAL, "&bCard Machine Carbonado", "", "&fChange to Production Carbonado", "",
+      Material.MUSIC_DISC_STAL, "&bCard Machine Carbonado", "", "&fChange to Produce Carbonado", "",
       LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE), "", "&3Supreme Component");
 
 
   public static final SlimefunItemStack CARD_REINFORCED_ALLOY_INGOT = new SupremeItemStack(
       "SUPREME_CARD_REINFORCED_ALLOY", Material.MUSIC_DISC_STAL, "&bCard Machine Reinforced Alloy Ingot", "",
-      "&fChange to Production Reinforced Alloy Ingot", "",
+      "&fChange to Produce Reinforced Alloy Ingot", "",
       LoreBuilder.machine(MachineTier.ADVANCED, MachineType.MACHINE), "", "&3Supreme Component");
 
 }
