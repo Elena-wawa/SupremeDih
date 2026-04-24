@@ -33,6 +33,12 @@ public class SetupResourceCore {
     registerCoreFabricator(SupremeCoreBlock.RESOURCE_CORE_STAIRS,
         CustomCoreRecipe.getRecipe(SupremeCoreBlock.RECIPE_RESOURCE_CORE_STAIRS));
 
+    registerCoreFabricator(SupremeCoreBlock.RESOURCE_CORE_STAIRS_2,
+        CustomCoreRecipe.getRecipe(SupremeCoreBlock.RECIPE_RESOURCE_CORE_STAIRS));
+
+    registerCoreFabricator(SupremeCoreBlock.RESOURCE_CORE_STAIRS_3,
+        CustomCoreRecipe.getRecipe(SupremeCoreBlock.RECIPE_RESOURCE_CORE_STAIRS));
+
     registerCoreFabricator(SupremeCoreBlock.RESOURCE_CORE_DIRT,
         CustomCoreRecipe.getRecipe(SupremeCoreBlock.RECIPE_RESOURCE_CORE_DIRT));
 
@@ -155,6 +161,12 @@ public class SetupResourceCore {
 
     registerCoreFabricator(SupremeCoreNature.RESOURCE_CORE_WITHER_ROSE,
         CustomCoreRecipe.getRecipe(SupremeCoreNature.RECIPE_RESOURCE_CORE_WITHER_ROSE));
+
+    registerCoreFabricator(SupremeCoreNature.RESOURCE_CORE_WITHER_ROSE_2,
+        CustomCoreRecipe.getRecipe(SupremeCoreNature.RECIPE_RESOURCE_CORE_WITHER_ROSE_2));
+
+    registerCoreFabricator(SupremeCoreNature.RESOURCE_CORE_WITHER_ROSE_3,
+        CustomCoreRecipe.getRecipe(SupremeCoreNature.RECIPE_RESOURCE_CORE_WITHER_ROSE_3));
 
     registerCoreFabricator(SupremeCoreAlloy.RESOURCE_CORE_COAL,
         CustomCoreRecipe.getRecipe(SupremeCoreAlloy.RECIPE_RESOURCE_CORE_COAL));
