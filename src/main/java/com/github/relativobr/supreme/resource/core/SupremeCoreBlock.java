@@ -45,6 +45,18 @@ public class SupremeCoreBlock {
   public static final CustomCoreRecipe RECIPE_RESOURCE_CORE_STAIRS = new CustomCoreRecipe(RESOURCE_CORE_STAIRS,
       Material.STONE_BRICK_STAIRS);
 
+  public static final SlimefunItemStack RESOURCE_CORE_STAIRS_2 = new SupremeItemStack("SUPREME_CORE_STAIRS_2",
+      "5cdb21b621afd41076666ef531775c4897457f0db0c319a3fc8682cab2ae66d4", "&aSupreme Supreme Stone Brick Stairs", "", "&7A mega stone brick stairs",
+      "", "&3Supreme Core Components");
+  public static final CustomCoreRecipe RECIPE_RESOURCE_CORE_STAIRS_2 = new CustomCoreRecipe(RESOURCE_CORE_STAIRS_2,
+      RESOURCE_CORE_STAIRS);
+
+  public static final SlimefunItemStack RESOURCE_CORE_STAIRS_3 = new SupremeItemStack("SUPREME_CORE_STAIRS_3",
+      "5cdb21b621afd41076666ef531775c4897457f0db0c319a3fc8682cab2ae66d4", "&aSupreme Supreme Supreme Stone Brick Stairs", "", "&7The ultimate stone brick stairs resource",
+      "", "&3Supreme Core Components");
+  public static final CustomCoreRecipe RECIPE_RESOURCE_CORE_STAIRS_3 = new CustomCoreRecipe(RESOURCE_CORE_STAIRS_3,
+      RESOURCE_CORE_STAIRS_2);
+
   public static final SlimefunItemStack RESOURCE_CORE_DIRT = new SupremeItemStack("SUPREME_CORE_DIRT",
       "f91209a21302f764b37060c86062a515f533b1a4f90593653ab23b33bfd7a068", "&aSupreme Dirt", "", "&7A super dirt",
       "", "&3Supreme Core Components");

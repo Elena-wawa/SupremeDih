@@ -62,4 +62,16 @@ public class SupremeCoreNature {
       "&3Supreme Core Components");
   public static final CustomCoreRecipe RECIPE_RESOURCE_CORE_WITHER_ROSE = new CustomCoreRecipe(
       RESOURCE_CORE_WITHER_ROSE, Material.WITHER_ROSE);
+
+  public static final SlimefunItemStack RESOURCE_CORE_WITHER_ROSE_2 = new SupremeItemStack("SUPREME_CORE_WITHER_ROSE_2",
+      "9dba38e9fc67f72c458fdac8ecd7cabaed3eb83737143a0128350a1ab381e3e", "&aSupreme Supreme Wither Rose", "", "&7A mega wither rose", "",
+      "&3Supreme Core Components");
+  public static final CustomCoreRecipe RECIPE_RESOURCE_CORE_WITHER_ROSE_2 = new CustomCoreRecipe(
+      RESOURCE_CORE_WITHER_ROSE_2, RESOURCE_CORE_WITHER_ROSE);
+
+  public static final SlimefunItemStack RESOURCE_CORE_WITHER_ROSE_3 = new SupremeItemStack("SUPREME_CORE_WITHER_ROSE_3",
+      "9dba38e9fc67f72c458fdac8ecd7cabaed3eb83737143a0128350a1ab381e3e", "&aSupreme Supreme Supreme Wither Rose", "", "&7The ultimate wither rose", "",
+      "&3Supreme Core Components");
+  public static final CustomCoreRecipe RECIPE_RESOURCE_CORE_WITHER_ROSE_3 = new CustomCoreRecipe(
+      RESOURCE_CORE_WITHER_ROSE_3, RESOURCE_CORE_WITHER_ROSE_2);
 }
