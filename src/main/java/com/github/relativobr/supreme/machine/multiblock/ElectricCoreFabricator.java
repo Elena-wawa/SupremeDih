@@ -67,6 +67,9 @@ public class ElectricCoreFabricator extends GenericMachine {
   public static List<AbstractItemRecipe> getAllRecipe() {
     List<AbstractItemRecipe> list = new ArrayList<>();
     list.add(addRecipe(SupremeCoreBlock.RECIPE_RESOURCE_CORE_STONE));
+    list.add(addRecipe(SupremeCoreBlock.RECIPE_RESOURCE_CORE_STAIRS));
+    list.add(addRecipe(SupremeCoreBlock.RECIPE_RESOURCE_CORE_STAIRS_2));
+    list.add(addRecipe(SupremeCoreBlock.RECIPE_RESOURCE_CORE_STAIRS_3));
     list.add(addRecipe(SupremeCoreBlock.RECIPE_RESOURCE_CORE_GRANITE));
     list.add(addRecipe(SupremeCoreBlock.RECIPE_RESOURCE_CORE_DIORITE));
     list.add(addRecipe(SupremeCoreBlock.RECIPE_RESOURCE_CORE_ANDESITE));
@@ -111,6 +114,8 @@ public class ElectricCoreFabricator extends GenericMachine {
     list.add(addRecipe(SupremeCoreNature.RECIPE_RESOURCE_CORE_CRIMSON_STEM));
     list.add(addRecipe(SupremeCoreNature.RECIPE_RESOURCE_CORE_WARPED_STEM));
     list.add(addRecipe(SupremeCoreNature.RECIPE_RESOURCE_CORE_WITHER_ROSE));
+    list.add(addRecipe(SupremeCoreNature.RECIPE_RESOURCE_CORE_WITHER_ROSE_2));
+    list.add(addRecipe(SupremeCoreNature.RECIPE_RESOURCE_CORE_WITHER_ROSE_3));
     list.add(addRecipe(SupremeCoreAlloy.RECIPE_RESOURCE_CORE_COAL));
     list.add(addRecipe(SupremeCoreAlloy.RECIPE_RESOURCE_CORE_IRON));
     list.add(addRecipe(SupremeCoreAlloy.RECIPE_RESOURCE_CORE_GOLD));
