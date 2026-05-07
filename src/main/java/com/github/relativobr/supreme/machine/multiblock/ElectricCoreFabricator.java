@@ -1,5 +1,6 @@
 package com.github.relativobr.supreme.machine.multiblock;
 
+
 import com.github.relativobr.supreme.generic.machine.GenericMachine;
 import com.github.relativobr.supreme.generic.recipe.AbstractItemRecipe;
 import com.github.relativobr.supreme.generic.recipe.CustomCoreRecipe;
@@ -128,13 +129,15 @@ public class ElectricCoreFabricator extends GenericMachine {
     return list;
   }
 
+  // whoever wrote this originally assumed everything was a vanilla Material, which, first of all, is stoobid
+  // awxons, he (or she, or they, or them, or whatever) even tried to call an ItemStack(ItemStack, int) constructor that does not exist
   private static AbstractItemRecipe addRecipe(CustomCoreRecipe customCoreRecipe) {
-    final ItemStack itemStack1 = new ItemStack(customCoreRecipe.getMainItem(),
-        customCoreRecipe.getMainItem().getMaxStackSize());
-    final ItemStack itemStack2 = new ItemStack(customCoreRecipe.getSecondItem(),
-        customCoreRecipe.getSecondItem().getMaxStackSize());
-    final ItemStack itemStack3 = new ItemStack(customCoreRecipe.getLastItem(),
-        customCoreRecipe.getLastItem().getMaxStackSize());
+    final ItemStack itemStack1 = customCoreRecipe.getMainItem().clone();
+    itemStack1.setAmount(itemStack1.getType().getMaxStackSize());
+    final ItemStack itemStack2 = customCoreRecipe.getSecondItem().clone();
+    itemStack2.setAmount(itemStack2.getType().getMaxStackSize());
+    final ItemStack itemStack3 = customCoreRecipe.getLastItem().clone();
+    itemStack3.setAmount(itemStack3.getType().getMaxStackSize());
     return new AbstractItemRecipe(
         new ItemStack[]{itemStack1, itemStack1, itemStack1, itemStack2, itemStack2, itemStack2, itemStack3, itemStack3,
             itemStack3}, customCoreRecipe.getMaterial());

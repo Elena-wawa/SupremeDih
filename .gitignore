@@ -1,0 +1,30 @@
+# Maven build output
+target/
+*.jar
+!src/main/resources/*.jar
+
+# Maven wrapper (optional, but common)
+!mvnw
+!mvnw.cmd
+!.mvn/wrapper/maven-wrapper.jar
+
+# IDE files (optional, but usually ignored)
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+.settings/
+.project
+.classpath
+
+# OS files (optional, but usually ignored)
+.DS_Store
+Thumbs.db
+
+# Logs (optional)
+*.log
+
+# Temporary files
+*.tmp
+*.temp
