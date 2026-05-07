@@ -4,7 +4,6 @@ import io.github.thebusybiscuit.slimefun4.api.items.SlimefunItemStack;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.bukkit.Material;
 import org.bukkit.inventory.ItemStack;
 
 @Data
@@ -15,15 +14,17 @@ public final class CustomCoreRecipe {
   private SlimefunItemStack material;
   private String name;
 
+  // why did we hardcode the recipe ingredients as bukkit materials
+  // this is so unbelievably stupid
   //index 0,1,2
-  private Material mainItem;
+  private ItemStack mainItem;
   //index 3,4,5
-  private Material secondItem;
+  private ItemStack secondItem;
   //index 6,7,8
-  private Material lastItem;
+  private ItemStack lastItem;
 
 
-  public CustomCoreRecipe(SlimefunItemStack material, Material mainItem) {
+  public CustomCoreRecipe(SlimefunItemStack material, ItemStack mainItem) {
     this.material = material;
     this.name = material.getItemId();
     this.mainItem = mainItem;
@@ -31,7 +32,7 @@ public final class CustomCoreRecipe {
     this.lastItem = mainItem;
   }
 
-  public CustomCoreRecipe(SlimefunItemStack material, Material mainItem, Material secondItem) {
+  public CustomCoreRecipe(SlimefunItemStack material, ItemStack mainItem, ItemStack secondItem) {
     this.material = material;
     this.name = material.getItemId();
     this.mainItem = mainItem;
@@ -39,8 +40,8 @@ public final class CustomCoreRecipe {
     this.lastItem = mainItem;
   }
 
-  public CustomCoreRecipe(SlimefunItemStack material, Material mainItem, Material secondItem,
-      Material lastItem) {
+  public CustomCoreRecipe(SlimefunItemStack material, ItemStack mainItem, ItemStack secondItem,
+      ItemStack lastItem) {
     this.material = material;
     this.name = material.getItemId();
     this.mainItem = mainItem;
@@ -48,26 +49,40 @@ public final class CustomCoreRecipe {
     this.lastItem = lastItem;
   }
 
+  public CustomCoreRecipe(SlimefunItemStack material, org.bukkit.Material mainItem) {
+    this(material, new ItemStack(mainItem, 1));
+  }
+
+  public CustomCoreRecipe(SlimefunItemStack material, org.bukkit.Material mainItem,
+      org.bukkit.Material secondItem) {
+    this(material, new ItemStack(mainItem, 1), new ItemStack(secondItem, 1));
+  }
+
+  public CustomCoreRecipe(SlimefunItemStack material, org.bukkit.Material mainItem,
+      org.bukkit.Material secondItem, org.bukkit.Material lastItem) {
+    this(material, new ItemStack(mainItem, 1), new ItemStack(secondItem, 1), new ItemStack(lastItem, 1));
+  }
+
+  private static ItemStack asMaxStack(ItemStack item) {
+    if (item == null) {
+      return null;
+    }
+    ItemStack clone = item.clone();
+    clone.setAmount(clone.getType().getMaxStackSize());
+    return clone;
+  }
+
   public static ItemStack[] getRecipe(CustomCoreRecipe customCoreRecipe) {
     return new ItemStack[]{
-        new ItemStack(customCoreRecipe.getMainItem(),
-            customCoreRecipe.getMainItem().getMaxStackSize()),
-        new ItemStack(customCoreRecipe.getMainItem(),
-            customCoreRecipe.getMainItem().getMaxStackSize()),
-        new ItemStack(customCoreRecipe.getMainItem(),
-            customCoreRecipe.getMainItem().getMaxStackSize()),
-        new ItemStack(customCoreRecipe.getSecondItem(),
-            customCoreRecipe.getSecondItem().getMaxStackSize()),
-        new ItemStack(customCoreRecipe.getSecondItem(),
-            customCoreRecipe.getSecondItem().getMaxStackSize()),
-        new ItemStack(customCoreRecipe.getSecondItem(),
-            customCoreRecipe.getSecondItem().getMaxStackSize()),
-        new ItemStack(customCoreRecipe.getLastItem(),
-            customCoreRecipe.getLastItem().getMaxStackSize()),
-        new ItemStack(customCoreRecipe.getLastItem(),
-            customCoreRecipe.getLastItem().getMaxStackSize()),
-        new ItemStack(customCoreRecipe.getLastItem(),
-            customCoreRecipe.getLastItem().getMaxStackSize())
+        asMaxStack(customCoreRecipe.getMainItem()),
+        asMaxStack(customCoreRecipe.getMainItem()),
+        asMaxStack(customCoreRecipe.getMainItem()),
+        asMaxStack(customCoreRecipe.getSecondItem()),
+        asMaxStack(customCoreRecipe.getSecondItem()),
+        asMaxStack(customCoreRecipe.getSecondItem()),
+        asMaxStack(customCoreRecipe.getLastItem()),
+        asMaxStack(customCoreRecipe.getLastItem()),
+        asMaxStack(customCoreRecipe.getLastItem())
     };
   }
 
